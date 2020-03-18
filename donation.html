@@ -350,12 +350,14 @@
             $('.btn.disabled').hide()
             $('.btn').click(function () {
                 
-                if ($(this).closest('end')) {
-                    $(this).addClass('disabled')
-                }
-
-                $('.btn').show()
-                $('.btn.disabled').hide()
+                setTimeout(() => {
+                    if ($(this).closest('end')) {
+                        $(this).addClass('disabled')
+                    }
+    
+                    $('.btn').show()
+                    $('.btn.disabled').hide()
+                }, 300);
             })
        
             // $('.btn').each(function () {
