@@ -3,7 +3,7 @@
 <html lang="en" class="default-style layout-fixed layout-navbar-fixed">
 
 <head>
-    <title>Energy Bit Club</title>
+    <title>Empire | Bootstrap 4 Admin Template</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -31,8 +31,7 @@
 
     <!-- Libs -->
     <link rel="stylesheet" href="assets/libs/perfect-scrollbar/perfect-scrollbar.css">
-    <link rel="stylesheet" href="assets/libs/flot/flot.css">
-
+    <link rel="stylesheet" href="assets/libs/smartwizard/smartwizard.css">
 </head>
 
 <body>
@@ -184,154 +183,125 @@
 
                     <!-- [ content ] Start -->
                     <div class="container-fluid flex-grow-1 container-p-y">
-                        <h4 class="font-weight-bold py-3 mb-0">Painel de Controle</h4>
+                        <h4 class="font-weight-bold py-3 mb-0">Doações</h4>
                         <div class="text-muted small mt-0 mb-4 d-block breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#"><i class="feather icon-home"></i></a></li>
-                                <li class="breadcrumb-item active"><a href="#">Painel de Controle</a></li>
+                                <li class="breadcrumb-item active">Doações</li>
                             </ol>
                         </div>
-                        <div class="row">
-                            <!-- 1st row Start -->
-                            
-                            <div class="col-xl-6 col-md-6 p-0">
 
-                                <div class="col-lg-12">
-                                    <div class="row">
-                                        <div class="col-xl-6 col-md-6">
-                                            <div class="card  mb-4">
-                                                <div class="card-body text-center">
-                                                    <i class="bg-info ui-rounded-icon ion ion-logo-usd"></i>
-                                                    <h4 class="mt-2"><span class="text-info">R$ 450,00</span></h4>
-                                                    <p class="mb-3">Saldo Disponível</p>
+                        <hr class="border-light container-m--x mt-0 mb-5">
+
+                        <div id="smartwizard-3" class="smartwizard-example">
+                            <ul class="card px-4 pt-3 mb-3">
+                                <li>
+                                    <a href="#smartwizard-3-step-1" class="mb-3">
+                                        <span class="sw-done-icon ion ion-md-checkmark"></span>
+                                        <span class="sw-number">1</span>
+                                        <div class="text-muted small">Pacote</div>
+                                    </a>
+                                </li>
+
+                                <li class="end">
+                                    <a href="#smartwizard-3-step-2" class="mb-3">
+                                        <span class="sw-done-icon ion ion-md-checkmark"></span>
+                                        <span class="sw-number">2</span>
+                                        <div class="text-muted small">Enviar Doação</div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#smartwizard-3-step-3" class="mb-3">
+                                        <span class="sw-done-icon ion ion-md-checkmark"></span>
+                                        <span class="sw-number">3</span>
+                                        <div class="text-muted small">Aguardando Pagamento</div>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="mb-3">
+                                <div id="smartwizard-3-step-1" class="card animated fadeIn">
+                                   
+                                        <div class="card">
+                                            <h6 class="card-header">Doação</h6>
+                                            <div class="card-body" style="padding: 6rem 0;">
+                                                <form>
+
+                                                    <div class="form-group row">
+                                                        <label class="col-form-label col-sm-2 text-sm-right">Valor</label>
+                                                        <div class="col-sm-8">
+                                                            <input type="text" class="form-control" placeholder="0,00">
+                                                            <div class="clearfix"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    
+                                                    
+                                                </form>
+                                            </div>
+                                        </div>
+                                </div>
+                                
+                                <div id="smartwizard-3-step-2" class="card animated fadeIn">
+                                        <div class="card-body col-xl-12 col-md-12 p-0">
+                                            <div class="card">
+                                                <h5 class="card-header">Histórico Financeiro</h5>
+                                                <div class="row p-3">
+
+                                                    <div class="qr-code col-xl-6 col-md-6 p-0 text-center" style="border-right: 1px solid rgba(24, 28, 33, 0.13);">
+                                                        <img src="assets/img/qrcode.png" alt="qr code energy" class="w-50">
+                                                        <h5>hash: 2d5d415-f2fd4d5f-2f1d5f</h5>
+                                                    </div>
+
+                                                    <div class="table-responsive col-xl-6 col-md-6 p-3">
+                                                        <table class="table table-hover table-borderless m-0">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Doação para</th>
+                                                                    <th class="text-right">Valor</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Maria da Silva</td>
+                                                                    <td class="text-right">0,0389</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>José da Silva</td>
+                                                                    <td class="text-right">0,0199</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xl-6 col-md-6">
-                                            <div class="card  mb-4">
-                                                <div class="card-body text-center">
-                                                    <i class="bg-linux ui-rounded-icon feather icon-upload"></i>
-                                                    <h4 class="mt-2"><span class="text-linux">R$ 450,00</span></h4>
-                                                    <p class="mb-3">Total Enviado</p>
+                                </div>
+
+                                <div id="smartwizard-3-step-3" class="card animated fadeIn">
+             
+                                        <div class="card">
+                                            <h6 class="card-header">Doação Confirmada com sucesso!</h6>
+                                            <div class="card-body align-self-center col-xl-5 col-5">
+                                                
+                                                <div class="col-xl-12 col-12">
+                                                    <div class="card">
+                                                        <div class="card-body text-center">
+                                                            <i class="bg-primary ui-rounded-icon lnr lnr-star"></i>
+                                                            <h4 class="mt-2"><span class="text-primary">R$ 450,00</span></h4>
+                                                            <p class="mb-3">Bônus</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
+
                                             </div>
                                         </div>
-                                    </div>
                                 </div>
-
-                                <div class="col-md-12">
-                                    <div class="card mb-4">
-                                        <h5 class="card-header">Histórico Financeiro</h5>
-                                        <div class="table-responsive">
-                                            <table class="table table-hover table-borderless">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Data</th>
-                                                        <th>Operação</th>
-                                                        <th class="text-right">Valor</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>01/01</td>
-                                                        <td>Depósito</td>
-                                                        <td class="text-right">250,00</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>01/01</td>
-                                                        <td>Depósito</td>
-                                                        <td class="text-right">250,00</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>01/01</td>
-                                                        <td>Depósito</td>
-                                                        <td class="text-right">250,00</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-
-
                             </div>
-                            
-                            <div class="col-xl-6 col-md-6 p-0">
-
-                                <div class="col-lg-12">
-                                    <div class="row">
-                                        <div class="col-xl-6 col-md-6">
-                                            <div class="card  mb-4">
-                                                <div class="card-body text-center">
-                                                    <i class="bg-success ui-rounded-icon feather icon-download"></i>
-                                                    <h4 class="mt-2"><span class="text-success">R$ 450,00</span></h4>
-                                                    <p class="mb-3">Total Recebido</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-6 col-md-6">
-                                            <div class="card  mb-4">
-                                                <div class="card-body text-center">
-                                                    <i class="bg-primary ui-rounded-icon lnr lnr-star"></i>
-                                                    <h4 class="mt-2"><span class="text-primary">R$ 450,00</span></h4>
-                                                    <p class="mb-3">Bônus</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <div class="card mb-4">
-                                        <h5 class="card-header">Minha Rede</h5>
-                                        <div class="table-responsive">
-                                            <table class="table table-hover table-borderless">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Login</th>
-                                                        <th>Posição</th>
-                                                        <th>Diretos</th>
-                                                        <th class="text-right">Volume</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>xyz</td>
-                                                        <td>Direto</td>
-                                                        <td>3</td>
-                                                        <td class="text-right">450,00</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>xyz</td>
-                                                        <td>Direto</td>
-                                                        <td>3</td>
-                                                        <td class="text-right">450,00</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>xyz</td>
-                                                        <td>Direto</td>
-                                                        <td>3</td>
-                                                        <td class="text-right">450,00</td>
-                                                    </tr>
-                        
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <!-- 1st row Start -->
                         </div>
 
-                      
-                        
-                        <div class="row">
-                            <!-- 3rd row Start -->
-                           
-                            <!-- 3rd row Start -->
-                        </div>
                     </div>
                     <!-- [ content ] End -->
 
@@ -355,11 +325,11 @@
         <!-- Overlay -->
         <div class="layout-overlay layout-sidenav-toggle"></div>
     </div>
-    <!-- [ Layout wrapper] End -->
+    <!-- [ Layout wrapper ] end -->
 
     <!-- Core scripts -->
     <script src="assets/js/pace.js"></script>
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script><!-- notification not work in jquery-3.3.1 js -->
     <script src="assets/libs/popper/popper.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/sidenav.js"></script>
@@ -368,17 +338,46 @@
 
     <!-- Libs -->
     <script src="assets/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="assets/libs/eve/eve.js"></script>
-    <script src="assets/libs/flot/flot.js"></script>
-    <script src="assets/libs/flot/curvedLines.js"></script>
-    <script src="assets/libs/chart-am4/core.js"></script>
-    <script src="assets/libs/chart-am4/charts.js"></script>
-    <script src="assets/libs/chart-am4/animated.js"></script>
+    <script src="assets/libs/smartwizard/smartwizard.js"></script>
+    <script src="assets/libs/validate/validate.js"></script>
 
     <!-- Demo -->
-    <script src="assets/js/demo.js"></script>
-    <script src="assets/js/analytics.js"></script>
-    <script src="assets/js/pages/dashboards_index.js"></script>
+    <script src="assets/js/demo.js"></script><script src="assets/js/analytics.js"></script>
+    <script src="assets/js/pages/forms_wizard.js"></script>
+
+    <script>
+
+        window.onload = initPage;
+        function initPage(){
+            $('.sw-btn-prev').removeClass('btn-secondary')
+            $('.sw-btn-prev').addClass('btn-primary')
+            $('.sw-btn-prev').text('Anterior')
+            $('.sw-btn-next').removeClass('btn-secondary')
+            $('.sw-btn-next').addClass('btn-primary')
+            $('.sw-btn-next').text('Próximo')
+            
+            $('.btn.disabled').hide()
+            $('.btn').click(function () {
+                
+                if ($(this).closest('end')) {
+                    $(this).addClass('disabled')
+                }
+
+                $('.btn').show()
+                $('.btn.disabled').hide()
+            })
+       
+            // $('.btn').each(function () {
+                
+            //     $(this).show()
+            //     if ($(this).hasClass('disabled')) { 
+            //         $(this).hide()
+            //     }
+            // })
+        }
+        
+
+    </script>
 </body>
 
 </html>
