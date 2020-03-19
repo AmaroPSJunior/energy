@@ -1200,6 +1200,12 @@ $ui-customer-review-line-height: 1.75 !default;
   }
 }
 
+@media only screen and (max-width: 575px) {
+    .qr-code {
+         border-right: 0;
+    }
+}
+
 // ===============  Compney css end =================
 
 
