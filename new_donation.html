@@ -197,7 +197,7 @@
                                     <a href="#smartwizard-3-step-1" class="mb-3">
                                         <span class="sw-done-icon ion ion-md-checkmark"></span>
                                         <span class="sw-number">1</span>
-                                        <div class="text-muted small">Pacote</div>
+                                        <div class="text-muted small">Preparando Doação</div>
                                     </a>
                                 </li>
 
@@ -205,7 +205,7 @@
                                     <a href="#smartwizard-3-step-2" class="mb-3">
                                         <span class="sw-done-icon ion ion-md-checkmark"></span>
                                         <span class="sw-number">2</span>
-                                        <div class="text-muted small">Enviar Doação</div>
+                                        <div class="text-muted small">Relatorio de Envio</div>
                                     </a>
                                 </li>
 
@@ -342,7 +342,8 @@
 
         window.onload = initPage;
         function initPage(){
-
+            
+            $('.btn-toolbar .btn').addClass('float-right col-xl-2 col-md-2 col-sm-2')
             
             $('.btn-toolbar .btn.disabled').hide()
             $('.btn-toolbar .btn-primary').click(function () {
